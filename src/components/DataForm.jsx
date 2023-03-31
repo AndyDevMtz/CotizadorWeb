@@ -80,7 +80,7 @@ export function DataForm() {
             name="nombre"
             onChange={(e) => handleOnChange(e)}
             required
-            pattern=""
+            pattern="[A-Z][a-z]"
             maxLength={60}
           ></Form.Control>
         </Form.Group>
